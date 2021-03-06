@@ -59,7 +59,7 @@ otherwise, you will need to find the IP of your Pi via your local network router
 ssh pi@[IP ADDRESS]
 # password is 'raspberry'
 ```
-* Once your ssh connetion has been established the first thing you should do is update the password - the Pi OS ships with a default password, and it's always best to change this before going any further.  To change your password run:
+* Once your ssh connection has been established the first thing you should do is update the password - the Pi OS ships with a default password, and it's always best to change this before going any further.  To change your password run:
 ```bash
 passwd
 ```
