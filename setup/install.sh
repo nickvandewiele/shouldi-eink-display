@@ -28,8 +28,8 @@ line="5,35 * * * * cd $(pwd) && python3 display.py
 
 # Save a tiny bit more power by turning off the LED
 # https://www.jeffgeerling.com/blogs/jeff-geerling/controlling-pwr-act-leds-raspberry-pi
-echo 'dtparam=act_led_trigger=none' | sudo tee -a /boot/config.txt
-echo 'dtparam=act_led_activelow=on' | sudo tee -a /boot/config.txt
+# echo 'dtparam=act_led_trigger=none' | sudo tee -a /boot/config.txt
+# echo 'dtparam=act_led_activelow=on' | sudo tee -a /boot/config.txt
 
 # Copy the config.ini.example to config.ini so that we can perform git updates
 # on the codebase in the future without conflicts
